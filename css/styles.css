@@ -90,7 +90,7 @@ input {
   border: solid grey;
   width: 60%;
   height: 20%;
-  color: white;
+  color: grey;
 }
 
 button{
@@ -98,13 +98,33 @@ button{
   height: auto;
   font-family: "Quicksand";
   font-size: 20%;
-  color: black;
-  background: grey;
+  color: #cccad4;
+  background: cccad4;
   border-radius: 10px;
   width: 60%;
   height: 20%;
-  color: white;
+  color: black;
 }
+
+@media (max-width: 991px){
+input{
+  width: 100%;
+}
+
+.consult{
+  width: 100%;
+}
+
+.menu{
+  width: 40%;
+}
+
+body{
+  letter-spacing: 0;
+}
+}
+
+
 
 .input-group-user{
   display: flex;
@@ -4675,7 +4695,7 @@ textarea.form-control-lg {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1rem 1rem;
+  padding: 1.5rem 1rem;
 }
 
 .card-title {
@@ -11580,14 +11600,14 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bck.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/pexels-evie.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 .masthead h1, .masthead .h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
