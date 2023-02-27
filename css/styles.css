@@ -67,10 +67,11 @@
 }
 
 body {
+  font-display: swap;
   margin: 0;
   font-family: Signika;
   font-size: var(--bs-body-font-size);
-  font-weight: var(--bs-body-font-weight);
+  font-weight: 600;
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
@@ -82,7 +83,7 @@ body {
 input {
   padding: 1rem 2rem;
   height: auto;
-  font-family: "Quicksand";
+  font-family: "Roboto";
   font-size: 20%;
   color: black;
   background: none;
@@ -96,7 +97,7 @@ input {
 button{
   padding: 1rem 2rem;
   height: auto;
-  font-family: "Quicksand";
+  font-family: "Roboto";
   font-size: 20%;
   color: #cccad4;
   background: cccad4;
@@ -11600,7 +11601,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/pexels-evie.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/pexels-evie.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
