@@ -119,10 +119,6 @@ input{
 .menu{
   width: 40%;
 }
-
-body{
-  letter-spacing: 0;
-}
 }
 
 
@@ -7992,6 +7988,7 @@ textarea.form-control-lg {
 }
 
 .text-black-50 {
+  word-wrap: break-word;
   --bs-text-opacity: 1;
   color: rgba(0, 0, 0, 0.5) !important;
 }
@@ -11506,11 +11503,6 @@ textarea.form-control-lg {
 html {
   scroll-padding-top: calc(4.5rem - 1px);
 }
-
-body {
-  letter-spacing: 0.0625em;
-}
-
 #mainNav {
   min-height: 3.5rem;
   background-color: #fff;
