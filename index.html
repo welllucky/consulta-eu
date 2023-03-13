@@ -13,6 +13,7 @@
     <meta name="author" content="Wellington Braga" />
     <title>Consulta eU</title>
     <link rel="icon" type="image/x-icon" href="assets/img/ConsultaeU/ConsultaeU-96.svg" />
+    <link rel="manifest" href="./manifest.json">
     <meta name="theme-color" content="#2d1a15">
     <link rel="apple-touch-icon" href="./assets/img/ConsultaeU/Assets.xcassets/AppIcon.appiconset/_/180.png">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -85,7 +86,7 @@
         <div class="d-flex justify-content-center">
           <div class="text-center">
             <h1 class="mx-auto my-0">Consulta eU</h1>
-            <h2 class="text-white-50 mx-auto mt-2 mb-5">
+            <h2 class="text-white-50 mx-auto mt-2 mb-5" id="status">
               Pare de cuidar da vida do vizinho, e comece a cuidar da sua!
             </h2>
             <form action="" method="get">
@@ -94,7 +95,7 @@
                 <input type="text" placeholder="CPF" />
                 <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Data de nascimento" name="" id="dataNasc" />
                 <input type="text" placeholder="Nome da mãe" />
-                <button class="consult" ">Consultar</button>
+                <button class="consult" onclick="submitPermissionNotification()">Consultar</button>
               </div>
             </form>
           </div>
