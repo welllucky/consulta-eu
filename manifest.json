@@ -18,27 +18,33 @@
   "icons": [
     {
       "src": "assets/img/ConsultaeU/ConsultaeU-96.svg",
-      "type": "image/x-icon"
+      "type": "image/x-icon",
+      "sizes": "96x96",
+      "purpose": "any maskable"
     },
     {
-      "src": ".../icons8-pesquisar-16.png",
+      "src": "./assets/img/ConsultaeU/Assets.xcassets/AppIcon.appiconset/_/16.png",
       "type": "image/png",
-      "sizes": "16x16"
+      "sizes": "16x16",
+      "purpose": "any maskable"
     },
     {
-      "src": ".../icons8-pesquisar-32.png",
+      "src": "./assets/img/ConsultaeU/Assets.xcassets/AppIcon.appiconset/_/32.png",
       "type": "image/png",
-      "sizes": "32x32"
+      "sizes": "32x32",
+      "purpose": "any maskable"
     },
     {
-      "src": ".../icons8-pesquisar-96.png",
+      "src": "./assets/img/ConsultaeU/Assets.xcassets/AppIcon.appiconset/_/96.png",
       "type": "image/png",
-      "sizes": "96x96"
+      "sizes": "96x96",
+      "purpose": "any maskable"
     },
     {
-      "src": ".../icons8-pesquisar-120.png",
+      "src": "./assets/img/ConsultaeU/Assets.xcassets/AppIcon.appiconset/_/120.png",
       "type": "image/png",
-      "sizes": "120x120"
+      "sizes": "120x120",
+      "purpose": "any maskable"
     },
     {
       "src": "./assets/img/ConsultaeU/Assets.xcassets/AppIcon.appiconset/_/180.png",
