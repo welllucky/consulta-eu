@@ -43,3 +43,21 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+/* Only register a service worker if it's supported */
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js');
+  }
+
+  window.addEventListener('beforeinstallprompt', (event) => {
+    // Impedir que o mini-infobar apareça no celular.
+    event.preventDefault();
+    console.log('👍', 'beforeinstallprompt', event);
+    // Esconder o evento para que possa ser acionado mais tarde.
+    window.deferredPrompt = event;
+    // Remover a classe 'oculta' do contêiner do botão de instalação.
+  });
+
+  if (window.location.protocol === 'http:') {
+    link.href = window.location.href.replace('http://', 'https://');
+}
