@@ -1,21 +1,18 @@
 {
-  "background_color": "#262626",
-  "description": "Confira todas as informações pertinentes a sua vida, finalmente pare de cuidar da vida da vizinha e comece a cuidar da sua!",
-  "dir": "ltr",
-  "display": "fullscreen",
-  "name": "Consulta eU",
-  "orientation": "portrait",
-  "scope": "/",
-  "short_name": "ConsultEU",
-  "start_url": "https://consulta-eu.netlify.app",
-  "theme_color": "#784133",
-  "categories": [
-    "government",
-    "social",
-    "utilities"
-  ],
-  "screenshots": [],
-  "icons": [
+"display_override": ["window-controls-overlay"], 
+"orientation": "any",
+"protocol_handlers": [{"protocol":"mailto","url":"/newEmail?to=%s"}], 
+"name": "Consulta eU",
+"short_name": "This name will show in your Windows taskbar, in the start menu, and Android homescreen",
+"start_url": "The URL that should be loaded when your application is opened",
+"display": "standalone",
+"description":  "Confira todas as informações pertinentes a sua vida, finalmente pare de cuidar da vida da vizinha e comece a cuidar da sua!",
+"lang": " ptbr",
+"dir": "ltr",
+"scope": "/",
+"theme_color": "#784133",
+"background_color": "#262626",
+"icons": [
     {
       "src": "assets/img/ConsultaeU/ConsultaeU-96.svg",
       "type": "image/x-icon",
@@ -53,12 +50,34 @@
       "purpose": "any maskable"
     }
   ],
-  "shortcuts": [],
-  "lang": "pt-br",
-  "display_override": [
-    "browser",
-    "fullscreen",
-    "standalone"
+"screenshots": [
+    {
+        "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+        "sizes": "2880x1800",
+        "type": "image/png",
+        "description": "A screenshot of the home page"
+    }
+],
+"prefer_related_applications": false,
+"shortcuts": [
+    {
+        "name":"Consulta eU",
+        "url":"/https://consulta-eu.netlify.app",
+        "description":"Confira todas as informações pertinentes a sua vida, finalmente pare de cuidar da vida da vizinha e comece a cuidar da sua!"
+    }
+],
+"related_applications": [
+    {
+      "platform": "windows",
+      "url": "https://www.example-app.com",
+      "id": "example.ExampleApp"
+    },
+    {
+      "platform": "play",
+      "url": "https://www.example-app-2.com"
+    }
   ],
-  "iarc_rating_id": "18+"
+  "iarc_rating_id": "e58c174a-81d2-5c3c-32cc-34b8de4a52e9"
+
+  
 }

@@ -1,0 +1,64 @@
+{
+    "background_color": "#262626",
+    "description": "Confira todas as informações pertinentes a sua vida, finalmente pare de cuidar da vida da vizinha e comece a cuidar da sua!",
+    "dir": "ltr",
+    "display": "fullscreen",
+    "name": "Consulta eU",
+    "orientation": "portrait",
+    "scope": "/",
+    "short_name": "ConsultEU",
+    "start_url": "/https://consulta-eu.netlify.app",
+    "theme_color": "#784133",
+    "categories": [
+      "government",
+      "social",
+      "utilities"
+    ],
+    "screenshots": [],
+    "icons": [
+      {
+        "src": "assets/img/ConsultaeU/ConsultaeU-96.svg",
+        "type": "image/x-icon",
+        "sizes": "96x96",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "./assets/img/ConsultaeU/Assets.xcassets/AppIcon.appiconset/_/16.png",
+        "type": "image/png",
+        "sizes": "16x16",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "./assets/img/ConsultaeU/Assets.xcassets/AppIcon.appiconset/_/32.png",
+        "type": "image/png",
+        "sizes": "32x32",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "./assets/img/ConsultaeU/Assets.xcassets/AppIcon.appiconset/_/96.png",
+        "type": "image/png",
+        "sizes": "96x96",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "./assets/img/ConsultaeU/Assets.xcassets/AppIcon.appiconset/_/120.png",
+        "type": "image/png",
+        "sizes": "120x120",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "./assets/img/ConsultaeU/Assets.xcassets/AppIcon.appiconset/_/180.png",
+        "type": "image/png",
+        "sizes": "180x180",
+        "purpose": "any maskable"
+      }
+    ],
+    "shortcuts": [],
+    "lang": "pt-br",
+    "display_override": [
+      "browser",
+      "fullscreen",
+      "standalone"
+    ],
+    "iarc_rating_id": "18+"
+  }
